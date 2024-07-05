@@ -53,7 +53,7 @@ const useForecastData = (city, temperatureUnit) => {
         filteredList.push({
           day,
           date: `${day}, ${date.getDate()} ${date.toLocaleDateString('en-US', { month: 'short' })}`,
-          icon: `/public/icons/${item.weather[0].icon}.png`,
+          icon: `${item.weather[0].icon}.png`,
           minTemp,
           maxTemp
         });

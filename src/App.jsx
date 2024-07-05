@@ -56,7 +56,7 @@ const App = () => {
         </div>
         <div className="flex flex-col items-center">
           {/* <img src='/src/assets/background.png' alt='Cloud background' className=' w-full h-[100%]' /> */}
-          <div className='py-10'><img src={`/public/icons/${icon}.png`} alt="Weather icon" className="w-[120px] h-[120px]"/></div>
+          <div className='py-10'><img src={`${icon}.png`} alt="Weather icon" className="w-[120px] h-[120px]"/></div>
           <div className="text-8xl">{temperature}<span className='text-gray-400 text-3xl'>°{unit}</span></div>
           <div className="text-2xl text-gray-400 p-10">{weather}</div>
           <div className="mt-4 text-gray-400">{`Today • ${currentDate}`}</div>
