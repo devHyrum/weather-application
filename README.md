@@ -7,7 +7,7 @@ Mobile
 
 ## Descripción
 
-Este proyecto es una aplicación de previsión meteorológica desarrollada con React. Utiliza la API de OpenWeatherMap para obtener datos meteorológicos actuales y previsiones a cinco días para cualquier ciudad del mundo. Los usuarios pueden buscar ciudades, cambiar entre unidades de temperatura (Celsius y Fahrenheit), y ver detalles como humedad, presión del aire, velocidad y dirección del viento, y visibilidad.
+Este proyecto es una aplicación de previsión meteorológica desarrollada con React. Utiliza la API de OpenWeatherMap para obtener datos meteorológicos actuales y previsiones a cinco días para cualquier ciudad del mundo. Los usuarios pueden buscar ciudades, cambiar entre unidades de temperatura (Celsius y Fahrenheit), y ver detalles como humedad, presión del aire, velocidad y dirección del viento, y visibilidad. Design fue extraído de **[Figma](https://www.figma.com/design/5X3Ao3gEqZPqqKctP7riDF/weather-app?node-id=0-1&node-type=CANVAS&t=fNnDPDnBYsCF3DyT-0)**
 
 ## Características
 
@@ -87,6 +87,7 @@ weather-application/
 - React
 - Tailwind CSS
 - OpenWeatherMap API
+- Figma
 
 ## Contribuciones
 
